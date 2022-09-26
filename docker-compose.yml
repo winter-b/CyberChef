@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  cyberchef:
+    image: mpepping/cyberchef
+    container_name: cyberchef
+    restart: always
+    ports:
+      - 8092:8000
